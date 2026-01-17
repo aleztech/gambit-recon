@@ -1,0 +1,50 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+ENV/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+.streamlit/secrets.toml
+
+# =========================
+# GAMBIT output
+# =========================
+gambit_out/
+*_out/
+output/
+results/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
