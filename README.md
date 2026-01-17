@@ -6,6 +6,10 @@ with a strong focus on **signal over noise** and **OPSEC-friendly defaults**.
 
 > Built for defenders. Designed for owned or authorized assets only.
 
+By default, GAMBIT performs passive and low-impact reconnaissance.
+Active vulnerability checks using Nuclei are **disabled by default**
+and must be explicitly enabled by the user.
+
 ---
 
 ## ✨ Key Features
