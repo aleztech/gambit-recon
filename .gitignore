@@ -21,8 +21,11 @@ ENV/
 # =========================
 # Streamlit
 # =========================
-.streamlit/
 .streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/logs/
+# Permitimos el tema
+!.streamlit/config.toml
 
 # =========================
 # GAMBIT output
