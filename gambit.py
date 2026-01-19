@@ -27,6 +27,8 @@ from urllib.parse import urlparse
 
 import streamlit as st
 
+from auth.ui import require_login, require_consent, render_session_sidebar, has_role
+
 # Optional deps
 try:
     import pandas as pd  # type: ignore
@@ -414,6 +416,10 @@ def pill(text: str, level: str = "info"):
 st.set_page_config(page_title="GAMBIT Recon", layout="wide", initial_sidebar_state="expanded")
 ui_css()
 
+if not require_login():
+    st.stop()
+render_session_sidebar()
+
 st.title("GAMBIT – Attack Surface Recon")
 st.caption("Operator-first UI · Passive posture + low-impact web · Optional active checks")
 
@@ -558,6 +564,14 @@ with st.sidebar:
     st.divider()
     run_btn = st.button("▶ Run GAMBIT", type="primary")
 
+# Gate execution (roles + consent) only when trying to run
+if run_btn:
+    if not has_role("admin", "ciso", "analyst"):
+        st.error("Tu rol no permite ejecutar acciones de Recon.")
+        st.stop()
+
+    if not require_consent():
+        st.stop()
 
 # ==========================================
 # Pre-run screen
