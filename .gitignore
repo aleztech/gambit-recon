@@ -51,3 +51,18 @@ Thumbs.db
 .idea/
 .vscode/
 *.code-workspace
+
+# =========================
+# Secrets / local config (NEVER COMMIT)
+# =========================
+.env
+.env.*
+*.env
+.secrets/
+
+# =========================
+# Auth safety net (defensive)
+# =========================
+users.json
+auth/users.json
+auth/*.json
