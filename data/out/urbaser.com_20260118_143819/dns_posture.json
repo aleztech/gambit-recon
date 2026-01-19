@@ -1,0 +1,51 @@
+{
+  "apex": "urbaser.com",
+  "A": [
+    "192.124.249.27"
+  ],
+  "AAAA": [],
+  "CNAME": [],
+  "NS": [
+    "dns5.servidoresdns.net.",
+    "dns6.servidoresdns.net."
+  ],
+  "SOA": [
+    "dns5.servidoresdns.net. hostmaster.servidoresdns.net. 2004115451 21600 3600 2419200 86400"
+  ],
+  "MX": [
+    "10 urbaser-com.mail.protection.outlook.com."
+  ],
+  "TXT": [
+    "\"qcYxLUZU1iNVjTdYCYZcO/ Utx9vt48IBJga7dflYr6A=\"",
+    "\"9ca86ea295c43cb66b6cda376e25d1ac\"",
+    "\"MS=ms11207593\"",
+    "\"bmfc7pvl4c9d12k69zx3j63hpc1pclmm\"",
+    "\"ms-domain-verification=19cd9d6a-3eb0-41ab-9ca4-fbfe2cfbfd1f\"",
+    "\"14B73A0E36686D1DE4D8BC0F1E1BFC1336F710744D2855D5905B385761DF4B38\"",
+    "\"CRm9/anCgNB2Frhw82xZ2BFq/7B3FYojOcJpOpKZHu3+8vaNXfiLyd+f9kMbZ0A3Yhin+MW2DpTHwrtgCVw8Vw==\"",
+    "\"google-site-verification=riSW8hH_lwva4FaknrD_17apSLqhrpHOqIVkksYSR6g\"",
+    "\"v=spf1 include:sendgrid.net include:_spf.salesforce.com include:_spf-eu.ppe-hosted.com include:spf.ipzmarketing.com include:spf.protection.outlook.com include:amazonses.com ip4:54.229.2.165 ip4:52.30.130.201 ip4:82.223.5.125 ip4:194.224.246.161 ip4:62.36.\" \"244.223 ip4:52.17.45.98 ip4:52.16.190.81 ip4:52.49.23.78 ip4:52.209.241.125 ip4:54.73.107.84 ip4:217.116.16.120/29 ip4:217.116.21.64/29 -all\"",
+    "\"cisco-ci-domain-verification=5637abe1d6c27821be78b98fdce31a0db6052127c95090c828bf94eb13cc1e4\"",
+    "\"google-site-verification=0d9zVeD4EnKJop6_0uFhLiGik4sHxqt7G0JHt45Val4\"",
+    "\"docusign=8fcb6724-dcf8-468d-8312-3ee18d459baa\"",
+    "\"5394ny26h9n5vhtlfp5nszzjqxkdg6m3\""
+  ],
+  "CAA": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"thawte.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"amazon.com\""
+  ],
+  "DNSSEC": false,
+  "wildcard": {
+    "test": "qzadftdxeeycimco.urbaser.com",
+    "A": [],
+    "AAAA": [],
+    "wildcard": false
+  },
+  "SPF": "\"v=spf1 include:sendgrid.net include:_spf.salesforce.com include:_spf-eu.ppe-hosted.com include:spf.ipzmarketing.com include:spf.protection.outlook.com include:amazonses.com ip4:54.229.2.165 ip4:52.30.130.201 ip4:82.223.5.125 ip4:194.224.246.161 ip4:62.36.\" \"244.223 ip4:52.17.45.98 ip4:52.16.190.81 ip4:52.49.23.78 ip4:52.209.241.125 ip4:54.73.107.84 ip4:217.116.16.120/29 ip4:217.116.21.64/29 -all\"",
+  "DMARC": "\"v=DMARC1; p=none; pct=100; fo=1; ri=3600; rua=mailto:24b9dff7@inbox.eu.redsift.cloud; ruf=mailto:24b9dff7@inbox.eu.redsift.cloud;\"",
+  "provider_guess": [
+    "Microsoft 365"
+  ]
+}

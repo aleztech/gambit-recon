@@ -1,0 +1,159 @@
+[
+  {
+    "host": "apps.urbaser.com",
+    "A": [
+      "194.224.246.148"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "campus.urbaser.com",
+    "A": [
+      "65.21.44.19"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "clientes.urbaser.com",
+    "A": [
+      "217.116.21.66"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "clientespt.urbaser.com",
+    "A": [
+      "217.116.21.66"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "dev-telemetry-townhalls.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "dieselplus.urbaser.com",
+    "A": [
+      "194.224.246.177"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "dosimetria.urbaser.com",
+    "A": [
+      "195.22.14.120"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "empleo.urbaser.com",
+    "A": [
+      "207.120.37.101",
+      "207.120.37.102",
+      "207.120.37.104",
+      "207.120.37.105",
+      "207.120.37.108",
+      "207.120.37.109",
+      "207.120.37.197",
+      "207.120.37.205"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "gisportal.urbaser.com",
+    "A": [
+      "20.234.252.254"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "jobs.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "mailhost.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "mailhost2.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "onlinecard.urbaser.com",
+    "A": [
+      "15.236.72.202",
+      "35.181.122.139"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "pre-myurbaser.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "pre-sensiot-api-app.urbaser.com",
+    "A": [],
+    "AAAA": []
+  },
+  {
+    "host": "pre-sensiot-web-api.urbaser.com",
+    "A": [
+      "40.114.194.188"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "pre-web.urbaser.com",
+    "A": [
+      "82.223.203.161"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "sgrcdclientes.urbaser.com",
+    "A": [
+      "194.224.246.170"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "sgriclientes.urbaser.com",
+    "A": [
+      "194.224.246.170"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "su.urbaser.com",
+    "A": [
+      "195.53.3.69"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "ucitizenbh.urbaser.com",
+    "A": [
+      "20.105.224.40"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "urbgesbasclientes.urbaser.com",
+    "A": [
+      "194.224.246.170"
+    ],
+    "AAAA": []
+  },
+  {
+    "host": "www.urbaser.com",
+    "A": [
+      "192.124.249.27"
+    ],
+    "AAAA": []
+  }
+]
