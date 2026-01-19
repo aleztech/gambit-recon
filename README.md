@@ -1,3 +1,5 @@
+"This repository contains the community/demo version of GAMBIT."
+
 # 🛡️ GAMBIT
 
 GAMBIT is an operator-first attack surface reconnaissance framework designed for
