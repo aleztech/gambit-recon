@@ -28,6 +28,7 @@ from urllib.parse import urlparse
 import streamlit as st
 
 from auth.ui import require_login, require_consent, render_session_sidebar, has_role
+from auth.admin_ui import render_admin_panel
 
 # Optional deps
 try:
@@ -423,7 +424,19 @@ render_session_sidebar()
 st.title("GAMBIT – Attack Surface Recon")
 st.caption("Operator-first UI · Passive posture + low-impact web · Optional active checks")
 
-tab_overview, tab_targets, tab_findings, tab_raw = st.tabs(["Overview", "Targets", "Findings", "Raw output"])
+tabs = ["Overview", "Targets", "Findings", "Raw output"]
+
+if has_role("admin"):
+    tabs.append("Admin")
+
+tab_objects = st.tabs(tabs)
+
+tab_overview = tab_objects[0]
+tab_targets = tab_objects[1]
+tab_findings = tab_objects[2]
+tab_raw = tab_objects[3]
+
+tab_admin = tab_objects[4] if has_role("admin") else None
 
 # ==========================================
 # Sidebar: all knobs BEFORE run
@@ -592,6 +605,12 @@ if not run_btn:
 """,
             unsafe_allow_html=True,
         )
+
+    # ✅ Render Admin también en modo pre-run (antes del stop)
+    if tab_admin:
+        with tab_admin:
+            render_admin_panel()
+
     st.stop()
 
 
@@ -1311,3 +1330,7 @@ with tab_raw:
             with st.expander(f, expanded=False):
                 txt = p.read_text(encoding="utf-8", errors="ignore")
                 st.code(txt[:12000] + ("\n...\n" if len(txt) > 12000 else ""))
+
+if tab_admin:
+    with tab_admin:
+        render_admin_panel()
